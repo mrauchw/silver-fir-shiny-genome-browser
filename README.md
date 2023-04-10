@@ -60,3 +60,23 @@ The Further focus is on AWS.
  1. Hosting the shiny app on virtual server like [AWS EC2](https://aws.amazon.com/de/ec2/?nc2=h_ql_prod_fs_ec2)
 
 Since command line tools are used, the first option is not possible and the AWS EC2 option was chosen.
+
+## AWS elastic compute
+
+An Amazon cloud service with resizable computing capacity.
+An overview can be found [here](https://aws.amazon.com/ec2/?nc1=h_ls).
+
+EC2 uses the Amazon elastic block store (EBS) as virtual disc space
+More information about EBS can be found [here](https://aws.amazon.com/ebs/?nc1=h_ls).
+
+### AWS Free Tier
+
+AWS offers three different free tiers to gain initial experience:
+ * Free trails (short term)
+ * 12 month free 
+ * always free
+
+AWS EC2 itself is [12 month free](https://aws.amazon.com/ec2/pricing/?nc1=h_ls) and includes the following:
+ * 750 hours per month
+ * Operating systems: Linux and Windows
+ * t2.micro instance (if t2.micro instance is not available in the chosen region, than t3.micro should be used).
