@@ -121,4 +121,9 @@ Furthermore, the following packages were installed for the shiny app:
  * tidyverse (version 2.0.0)
  * BLAST+  (version 2.12.0)
 
-Since no Linux commands could be called in the folder with the over 2.5 million fasta files, the script move_files.sh was written. This can be freely used and adapted for other linux commands.
+
+## Further development
+* Configure a domain name for the application.
+* Increase the EBS storage space by at least 1 GB.
+* Solve the problem with the high number of splitted FASTA files. A good balance between the number of files, the loading time and the amount of data transfer should be considered. With data transfer, the more data that is downloaded, the higher the cost.
+* An alternative to the web application would be to offer a setup file as a download. This file should then not only install the genome browser application locally on the computer, but also offer automation for downloading the Abies alba data locally and preparing it for the genome browser. For the preparation, all necessary programmes should also be installed and executed automatically.
